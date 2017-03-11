@@ -28,7 +28,7 @@ public class CoolWeatherDB {
 	private SQLiteDatabase db;
 	
 	/**
-	 * 将构造方法初始化
+	 * 将构造方法私有化
 	 */
 	private CoolWeatherDB(Context context){
 		CoolWeatherOpenHelper dbHelper = new CoolWeatherOpenHelper(context, DB_NAME, null, VERSION);
